@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { motion } from "framer-motion";
-import { GoPrimitiveDot } from 'react-icons/go'
+import { GoDotFill } from 'react-icons/go'
 import { BsArrowRight } from 'react-icons/bs'
 import { useTheme } from "next-themes";
 import Link from 'next/link';
@@ -16,7 +16,7 @@ const Writing = () => {
         <motion.div className="drag_container" ref={constraintsRef}>
           <h1 className='font-Mosk-Ultra-Bold text-[#404040] dark:text-[#fafafa]'>Writing.</h1>
           <motion.div className="items item1" drag dragConstraints={constraintsRef} >
-            <div className="dot_section"><GoPrimitiveDot /><GoPrimitiveDot /><GoPrimitiveDot /></div>
+            <div className="dot_section"><GoDotFill /><GoDotFill /><GoDotFill /></div>
             <div className="box_content">
               <h2>The many ways to change an  SVG fill on hover</h2>
               <p>How do you go about adding a colored hover effect to an icon if it’s not an inline SVG? Let’s dive into what’s possible with CSS and SVG filters. </p>
@@ -32,7 +32,7 @@ const Writing = () => {
             </div>
           </motion.div>
           <motion.div className="items item2" drag dragConstraints={constraintsRef}  >
-            <div className="dot_section"><GoPrimitiveDot /><GoPrimitiveDot /><GoPrimitiveDot /></div>
+            <div className="dot_section"><GoDotFill /><GoDotFill /><GoDotFill /></div>
             <div className="box_content">
               <h2 >The many ways to change an  SVG fill on hover</h2>
               <p>How do you go about adding a colored hover effect to an icon if it’s not an inline SVG? Let’s dive into what’s possible with CSS and SVG filters. </p>
@@ -47,7 +47,7 @@ const Writing = () => {
             </div>
           </motion.div>
           <motion.div className="items item3" drag dragConstraints={constraintsRef} >
-            <div className="dot_section"><GoPrimitiveDot /><GoPrimitiveDot /><GoPrimitiveDot /></div>
+            <div className="dot_section"><GoDotFill /><GoDotFill /><GoDotFill /></div>
             <div className="box_content">
               <h2>The many ways to change an  SVG fill on hover</h2>
               <p>How do you go about adding a colored hover effect to an icon if it’s not an inline SVG? Let’s dive into what’s possible with CSS and SVG filters. </p>
